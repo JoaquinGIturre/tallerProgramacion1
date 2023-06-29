@@ -1,0 +1,6 @@
+C:\Users\witibOi'\Documents\GitHub\tallerProgramacion1\Ejercicio 12\Ejercicio12\Ejercicio12\bin\Debug\Ejercicio12.exe.config
+C:\Users\witibOi'\Documents\GitHub\tallerProgramacion1\Ejercicio 12\Ejercicio12\Ejercicio12\bin\Debug\Ejercicio12.exe
+C:\Users\witibOi'\Documents\GitHub\tallerProgramacion1\Ejercicio 12\Ejercicio12\Ejercicio12\bin\Debug\Ejercicio12.pdb
+C:\Users\witibOi'\Documents\GitHub\tallerProgramacion1\Ejercicio 12\Ejercicio12\Ejercicio12\obj\Debug\Ejercicio12.csprojResolveAssemblyReference.cache
+C:\Users\witibOi'\Documents\GitHub\tallerProgramacion1\Ejercicio 12\Ejercicio12\Ejercicio12\obj\Debug\Ejercicio12.exe
+C:\Users\witibOi'\Documents\GitHub\tallerProgramacion1\Ejercicio 12\Ejercicio12\Ejercicio12\obj\Debug\Ejercicio12.pdb
