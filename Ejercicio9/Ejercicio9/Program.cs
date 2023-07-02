@@ -21,6 +21,7 @@ namespace Ejercicio9
             usuario = 0;
             contraseña = 0;
             intentos = 0;
+            //MATRIZ DE DATOS DE CLIENTES X CODIGO CLIENTE.
             Int32[,] datosClientesXCodigoCliente = { {  4587, 3157 , 5968 ,  3485 ,  1687 },
                                                      { 12000, 3500 ,    0 , 14000 , 15750 }};
             cantidadUsuarios = datosClientesXCodigoCliente.GetLength(1);
