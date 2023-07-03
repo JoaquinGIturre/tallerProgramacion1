@@ -25,7 +25,7 @@ namespace ConsoleApplication1
 
             // Generamos un ciclo repetitivo que mientras la cantidad de intentos sea menor que "3" se ejecute el codigo.
             while (intentos < 3)
-                { 
+            {
                 //Etapa de Login.
                 Console.Clear();
                 Console.WriteLine("----------------------------");
@@ -39,7 +39,7 @@ namespace ConsoleApplication1
                 //1era verificación, verificaremos si es que el codigo de cliente podria llegar a estar en nuestra matriz, si el 
                 //usuario que indica usuario es mayor al numero de columnas, es un usuario inexistente, por ende sumamos "1" a la
                 //variable contadora de intentos.
-                if (usuario >= datosClientesXCodigoCliente.GetLength(1))
+                if (usuario > datosClientesXCodigoCliente.GetLength(1) - 1)
                 {
                     intentos++;
                     Console.WriteLine("Ingresaste un usuario invalido, intente nuevamente.");
@@ -48,8 +48,8 @@ namespace ConsoleApplication1
                 }
                 else
                 {
-                //Una vez que verificamos que el usuario este correcto consultamos la contraseña.
-                Console.Write("Contraseña:");
+                    //Una vez que verificamos que el usuario este correcto consultamos la contraseña.
+                    Console.Write("Contraseña:");
                 contraseña = int.Parse(Console.ReadLine());
                 //Sabemos que la contraseña esta almacenada en la fila 0 y en la columna correspondiente al numero de columna,
                 if (datosClientesXCodigoCliente[0, usuario] == contraseña)
@@ -156,7 +156,7 @@ namespace ConsoleApplication1
                                     }
                                     Console.Write("Ingrese codigo de usuario a transferir");
                                     auxUsuarioDestino = int.Parse(Console.ReadLine());
-                                    while(auxUsuarioDestino > datosClientesXCodigoCliente.GetLength(1))
+                                    while(auxUsuarioDestino > datosClientesXCodigoCliente.GetLength(1)-1)
                                     {
                                         Console.WriteLine("Usuario invalido, intente nuevamente.");
                                         Console.Write("Codigo de usuario:");
